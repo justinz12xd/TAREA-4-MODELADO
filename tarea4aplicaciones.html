@@ -1,18 +1,26 @@
 <!DOCTYPE html>
+//INICIAMOS EL ARCHIVO HTML
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operaciones Aritméticas</title>
+    <title>Operaciones Aritméticas</title> //TITULO DE LA PAGINA WEB
 </head>
+    //ETIQUETA BODY PARA TENER EL CUERPO DE LA PAGINA
 <body>
     <script type="text/javascript">
+        //SE GUARDARÁ LA VARIABLA EN NUM1 Y NUM 2
         var num1 = eval(prompt("Introduce el primer número:", 0));
         var num2 = eval(prompt("Introduce el segundo número:", 0)); 
+        //ITERACION DE SUMA
         alert("1. Suma: " + num1 + " + " + num2 + " = " + (num1 + num2));
+        //ITERACION DE RESTA
         alert("2. Resta: " + num1 + " - " + num2 + " = " + (num1 - num2));
+        //ITERACION DE MULTIPLICACION
         alert("3. Multiplicación: " + num1 + " * " + num2 + " = " + (num1 * num2));
+        //ITERACION DE DIVISION
         alert("4. División: " + num1 + " / " + num2 + " = " + (num2 != 0 ? (num1 / num2) : "Error: división por cero"));
+        //ITERACION DE MOD O &&
         alert("5. Módulo: " + num1 + " % " + num2 + " = " + (num2 != 0 ? (num1 % num2) : "Error: división por cero"));
     </script>
 </body>
